@@ -48,7 +48,7 @@ Useful for testing:
 
 curl -X POST http://127.0.0.1:5000
 curl -H "Content-type: application/json" -X POST http://127.0.0.1:5000/predict -d '{"youtube_url":"https://www.youtube.com/watch?v=uNTpPNo3LBg"}'
-
+curl -H "Content-type: application/json" -X POST http://ec2-54-200-65-191.us-west-2.compute.amazonaws.com/predict -d '{"youtube_url":"xyzvideos"}'
 '''
 
 ### ROUTES ###
